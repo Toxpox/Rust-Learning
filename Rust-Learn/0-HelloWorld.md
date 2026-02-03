@@ -12,7 +12,7 @@ fn main() {
     println!("System Programming with Rust.");
 }
 ```
-
+// Kullanılmayan değişkene sürekli uyarı verir. Engellemek için değişken adının başına "_" eklenir. Bu işaret değişkenin bilerek kullanılmadığını söyler.
 ---
 
 ## 2) Mutable / Immutable
@@ -92,3 +92,4 @@ fn main() {
 Sadece okumak istiyorsanız `&config.2` gibi referans kullanmak daha uygundur.
 
 ---
+
